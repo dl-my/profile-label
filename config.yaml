@@ -1,0 +1,13 @@
+app:
+  port: 8080
+
+database:
+  driver: mysql
+  host: localhost
+  port: 3306
+  username: root
+  password: "5211314."
+  name: arkm
+  charset: utf8mb4
+  loc: Local
+  parse_time: true
