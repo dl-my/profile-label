@@ -10,9 +10,9 @@ import (
 func InitChrome() error {
 	// 自动启动本地 Chrome
 	cmd := exec.Command(
-		`C:\Users\123\AppData\Local\Google\Chrome\Application\chrome.exe`,
+		`C:\Program Files\Google\Chrome\Application\chrome.exe`,
 		"--remote-debugging-port=9222",
-		"--user-data-dir=E:\\chrometmp",
+		"--user-data-dir=C:\\Users\\Public\\App\\Google\\chromeTmp",
 		"--no-first-run",
 		"--no-default-browser-check",
 	)

@@ -37,8 +37,6 @@ type AppConfig struct {
 	Log LogConfig `mapstructure:"log"`
 
 	DB Database `mapstructure:"database"`
-
-	Dune int `mapstructure:"dune"`
 }
 
 var GlobalConfig AppConfig
