@@ -234,7 +234,7 @@ func GetAuthToken(username, password, token string, cookies []*network.Cookie) (
 		return "", err
 	}
 
-	fmt.Println("响应内容:", buf.String())
+	//fmt.Println("响应内容:", buf.String())
 
 	return tr.Data.Token, nil
 }
